@@ -1,0 +1,12 @@
+var pass = prompt('Crea una contraseña')
+
+alert("Tu contraseña es " + pass)
+
+var passsolicitada = prompt('Inserta la contraseña creada')
+
+if (passsolicitada == pass) {
+    alert('Contraseña correcta')
+}
+else{
+    alert('Contraseña incorrecta')
+}
